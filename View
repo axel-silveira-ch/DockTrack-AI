@@ -1,0 +1,18 @@
+Cómo visualizar el diagrama
+
+Para visualizar el diagrama generado:
+
+1.- Archivo PNG: El archivo PNG generado está ubicado en el repositorio de GitHub. Puedes abrirlo directamente desde cualquier visor de imágenes.
+2.- Repositorio de GitHub:
+    Descarga el archivo PNG desde el repositorio.
+    Si deseas regenerarlo, descarga también el archivo Python.
+3.- Requisitos para regenerar el diagrama:
+    Instalar Python 3.
+    Instalar la biblioteca graphviz:
+      pip install graphviz
+    Asegurarte de que Graphviz está instalado y configurado correctamente.
+4.- Ejecutar el código:
+    Desde la terminal, navega al directorio donde se encuentra el script Python.
+    Ejecuta:
+      python Diagrama.py
+    Esto generará un archivo PNG en el mismo directorio.
