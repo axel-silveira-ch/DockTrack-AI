@@ -1,0 +1,16 @@
+Cómo se generó el diagrama
+
+El diagrama fue generado utilizando la biblioteca Graphviz en Python. El código implementado utiliza el módulo Digraph para definir nodos, relaciones y estilos, estructurando un diagrama que representa entidades relacionadas a un sistema médico. Cada nodo corresponde a una tabla o entidad del sistema, y las relaciones entre ellos se definen mediante flechas que incluyen verbos relacionales.
+
+El flujo de trabajo para generar el diagrama fue:
+
+1.- Definición del script: Se utilizó el lenguaje Python para crear un archivo .py que contiene el código para definir los nodos y sus relaciones.
+2.- Configuración de Graphviz: El entorno fue configurado correctamente, añadiendo Graphviz al sistema y asegurándose de que el ejecutable dot estuviera en el PATH del sistema.
+3.- Ejecución del script: El script fue ejecutado en el terminal o el IDE configurado, lo cual generó un archivo PNG representando el diagrama.
+4.- Salida del diagrama: El método render() del objeto Digraph generó un archivo PNG con el nombre especificado.
+
+Herramientas utilizadas
+
+* Python: Lenguaje de programación para codificar el diagrama.
+* Graphviz: Herramienta para renderizar el diagrama.
+* IDE: Visual Studio Code.
